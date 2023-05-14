@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAVELAND</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Ribeye&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <div class="header-hero">
+       <header class="header container">
+      <a class="logo header__logo link" href="">Trevland</a>
+      <nav class="nav">
+        <ul class="nav__list list">
+          <li class="nav__item">
+            <a class="nav__link link" href="">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="">Location</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="">About</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link link" href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn" type="button">Booking now</button>
+    </header>
+
+    <main>
+      <section class="hero" >
+        <div class="hero__container container" style="background-image: url('hero@1x.jpg');">
+          <h1 class="hero-title">Railtrips To Here, There And Everywhere!</h1>
+          <p class="hero__desc">
+            We all wish to start our year the best way possible and also
+            according to a common belief if you have a great start to your.
+          </p>
+          <button class="btn hero-btn">Explore more</button>
+        </div>
+      </section>
+    </div>
+  
+
+      <section class="location">
+        <div class="location-container container">
+           <h2 class="location__title">Popular Location</h2>
+        <p class="location__desc">
+          For every one of us, travel came first. We’ve spent years living as
+          nomads, pioneers, and voyagers— from island hopping in the
+        </p>
+        <ul class="location__list list">
+          <li class="location__item">
+            <img class="locatin__img img" src="./images/locations/istanbul@1x.jpg" alt="istanbul" 
+            width="360px" height="331px"/>
+            <div class="location__wrapper">
+              <h3 class="location__subtitle">Istanbul, Turkey</h3>
+              <p class="wrapper-desc">
+                Istanbul is a major city in Turkey that straddles Europe.
+              </p>
+            </div>
+          </li>
+          <li class="location__item">
+            <img class="locatin__img img" src="./images/locations/malaysia@1x.jpg" alt="malaysia" 
+             width="360px" height="331px"/>
+            <div class="location__wrapper">
+              <h3 class="location__subtitle">Kuala Lumpur, Malaysia</h3>
+              <p class="wrapper-desc">
+                A 272-step long trek leads you to this century.
+              </p>
+            </div>
+          </li>
+          <li class="location__item">
+            <img class="locatin__img img" src="./images/locations/seoul@1x.jpg" alt="seoul"
+            width="360px" height="331px"/>
+            <div class="location__wrapper">
+              <h3 class="location__subtitle">Seoul, South Korea</h3>
+              <p class="wrapper-desc">
+                South Korea officially the Republic of Korea is a country in
+                East Asia.
+              </p>
+            </div>
+          </li>
+        </ul>
+        </div>
+       
+      </section>
+
+      <!-- <section class="offers container">
+        <h2 class="offers__title">Special Offers</h2>
+        <p class="offers__desc">
+          With the New Year comes a refreshing sense of wanderlust, a longing in
+          our souls to escape to warmer climates,
+        </p>
+        
+           <ul class="slider">
+          <li class="slider__item">
+            <img class="offers-card__img" src="./images/offers/new-york@1x.jpg" alt="new-york" width="262px" height="163px">
+            <h3 class="offers-card__title">Statue of Liberty</h3>
+            <div class="place-item">
+              <svg class="place-icon-map" width="11px" hight="15px">
+                <use href="./images/icons.svg#map"></use>
+              </svg>
+            <p class="offers-card__item">New York</p>
+             <svg class="plase-icon-star" width="24px" hight="24px">
+                <use href="./images/icons.svg#star"></use>
+              </svg>
+              <p class="offers-card__rating">4.8</p>
+            </div>
+            <p class="offers-card__term">4 Day 5 Nights</p>
+            <div class="offers-card__offer">
+             <p class="offers-card__price">$450</p>
+             <p class="offers-card__person">/person</p>
+            </div>
+            
+          </li>
+          <li class="slider__item">
+            <img class="offers-card__img" src="./images/offers/china@1x.jpg" alt="china" width="262px" height="163px">
+            <h3 class="offers-card__title">The Great Wall</h3>
+           <div class="place-item">
+              <svg class="place-icon-map" width="11px" hight="15px">
+                <use href="./images/icons.svg#map"></use>
+              </svg>
+            <p class="offers-card__item">China</p>
+             <svg class="plase-icon-star" width="24px" hight="24px">
+                <use href="./images/icons.svg#star"></use>
+              </svg>
+              <p class="offers-card__rating">4.9</p>
+            </div>
+            <p class="offers-card__term">7 Day 8 Nights</p>
+            <div class="offers-card__offer">
+              <p class="offers-card__price">$850</p>
+            <p class="offers-card__person">/person</p>
+            </div>
+            
+          </li>
+          <li class="slider__item">
+            <img class="offers-card__img" src="./images/offers/iran@1x.jpg" alt="iran" width="262px" height="163px">
+            <h3 class="offers-card__title">Dizin</h3>
+           <div class="place-item">
+              <svg class="place-icon-map" width="11px" hight="15px">
+                <use href="./images/icons.svg#map"></use>
+              </svg>
+            <p class="offers-card__item">Iran</p>
+             <svg class="plase-icon-star" width="24px" hight="24px">
+                <use href="./images/icons.svg#star"></use>
+              </svg>
+              <p class="offers-card__rating">4.6</p>
+            </div>
+            <p class="offers__term">5 Day 6 Nights</p>
+            <div class="offers-card__offer">
+              <p class="offers-card__price">$550</p>
+             <p class="offers-card__person">/person</p>
+            </div>
+            
+          </li>
+          <li class="slider__item">
+            <img class="offers-card__img" src="./images/offers/bangladesh@1x.jpg" alt="bangladesh" width="262px" height="163px">
+            <h3 class="offers-card__title">Sajek Valley</h3>
+           <div class="place-item">
+              <svg class="place-icon-map" width="11px" hight="15px">
+                <use href="./images/icons.svg#map"></use>
+              </svg>
+            <p class="offers-card__item">Bangladesh</p>
+             <svg class="plase-icon-star" width="24px" hight="24px">
+                <use href="./images/icons.svg#star"></use>
+              </svg>
+              <p class="offers-card__rating">4.7</p>
+            </div>
+            <p class="offers-card__term">3 Day 4 Nights</p>
+            <div class="offers-card__offer">
+              <p class="offers-card__price">$400</p>
+             <p class="offers-card__person">/person</p>
+            </div>
+            
+          </li>
+          <li class="slider__item">
+            <img class="offers-card__img" src="./images/offers/osaka@1x.jpg" alt="osaka" width="262px" height="163px">
+            <h3 class="offers-card__title">Osaka Castle</h3>
+           <div class="place-item">
+              <svg class="place-icon-map" width="11px" hight="15px">
+                <use href="./images/icons.svg#map"></use>
+              </svg>
+            <p class="offers-card__item">Japan</p>
+             <svg class="plase-icon-star" width="24px" hight="24px">
+                <use href="./images/icons.svg#star"></use>
+              </svg>
+              <p class="offers-card__rating">4.7</p>
+            </div>
+            <p class="offers-card__term">4 Day 5 Nights</p>
+            <div class="offers-card__offer">
+            <p class="offers-card__price">$700</p>
+            <p class="offers-card__person">/person</p>
+            </div>
+           </li>
+        </ul>             
+        
+        </div>     
+      </section> -->
+
+      <section class="benefits">
+        <div class="benefits-container container">
+          <h2 class="benefits__title">From Blog & News</h2>
+        <p class="benefits__desc">
+          Welcome to Community Conversations, a new interview series featuring
+          Intrepid travellers, creatives and activists in our community.
+        </p>
+        <ul class="benefits__list list">
+           <li class="benefits-item">
+            <img class="benefits__img card-img" src="./images/benefits/canada@1x.jpg" alt="canada" 
+            width="554px" height="397px"/>
+            <div class="benefits-card">
+              <h3 class="benefits-card__subtitle">Banff National Park</h3>
+              <p class="benefits-card__desc card-desc">
+                Banff National Park lies in the heart of the majestic Rocky
+                Mountains in the province of Alberta, and showcases some of
+                Canada's most beautiful scenery. Turquoise-colored lakes,
+                snow-capped peaks, and glaciers are all easily accessible
+              </p>
+              <a
+                class="benefits-link link"
+                href=""
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="telegram"
+                >@thomasalva_adison</a
+              >
+            </li>
+         
+          
+          <div class="benefits__right-side">
+             <li class="benefits__item">
+            <img class="benefits__img" src="./images/benefits/hiroshima@1x.jpg" alt="hiroshima" 
+            width="263px" height="201px"/>
+            <div class="benefits-card">
+              <h3 class="benefits-card__subtitle">The Hiroshima Peace!</h3>
+              <p class="benefits-card__desc">
+                It was formally opened to the public in August that year.
+              </p>
+              <a
+                class="benefits-link link"
+                href=""
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="telegram"
+                >@shova_bd88</a
+              >
+            </div>
+          </li>
+          <li class="benefits__item">
+            <img class="benefits__img" src="./images/benefits/india@1x.jpg" alt="india" 
+            width="263px" height="201px"/>
+            <div class="benefits__card">
+              <h3 class="benefits-card__subtitle">The faithful prayers!</h3>
+              <p class="benefits-card__desc">
+                A major pilgrimage center for Hindus, the holy city.
+              </p>
+              <a
+                class="benefits-link link"
+                href=""
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="telegram"
+                >@adem/smith</a
+              >
+            </div>
+          </li>
+          <li class="benefits__item">
+            <img class="benefits__img" src="./images/benefits/pakistan@1x.jpg" alt="pakistan" 
+            width="263px" height="201px"/>
+            <div class="benefits-card">
+              <h3 class="benefits-card__subtitle">Colourful waters!</h3>
+              <p class="benefits-card__desc">
+                Forest-driven water and energy cycles are poorly.
+              </p>
+              <a
+                class="benefits-link link"
+                href=""
+                target="_blank"
+                rel="noreferrer noopener"
+                aria-label="telegram"
+                >@jhon7leew</a
+              >
+            </div>
+          </li>
+          </div>
+         
+        </ul>
+        </div>
+        
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <div class="footer__contacts">
+         <a class="logo link footer__logo" href="">Trevland</a>
+        <p class="footer__subtitle">Contact us</p>
+        <a
+          class="footer__link link"
+          href=""
+          target="_blank"
+          rel="noreferrer noopener"
+          aria-label="telegram"
+          >@shovasatkhira88.com</a
+        >
+         <ul class="socials-list list">
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              href=""
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="facebook"
+            >
+              <svg class="socials-icon" width="20px" hight="20px">
+                <use href="./images/icons.svg#fb"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="insa"
+            >
+              <svg class="socials-icon" width="20px" hight="20px">
+                <use href="./images/icons.svg#insta"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="twitter"
+            >
+              <svg class="socials-icon" width="20px" hight="20px">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socials-item">
+            <a
+              class="socials-link"
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="google"
+            >
+              <svg class="socials-icon" width="20px" hight="20px">
+                <use href="./images/icons.svg#google"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+       </div>
+      <ul class="footer-nav list">
+        <li class="footer-nav__item">
+          <a class="footer-nav__link link" href="">Services</a>
+        </li>
+        <li class="footer-nav__item">
+          <a class="footer-nav__link link" href="">About</a>
+        </li>
+        <li class="footer-nav__item">
+          <a class="footer-nav__link link" href="">Our story</a>
+        </li>
+        <li class="footer-nav__item">
+          <a class="footer-nav__link link" href="">Benefits</a>
+        </li>
+        <li class="footer-nav__item">
+          <a class="footer-nav__link link" href="">Branding</a>
+        </li>
+      </ul>
+      <ul class="footer-policy list">
+        <li class="footer-policy__item">
+          <a class="footer-policy__link link"
+          href=""
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="Legal"
+          >Legal</a>
+          
+        </li>
+        <li class="footer-policy__item">
+           <a class="footer-policy__link link"
+          href=""
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="Terms & Conditions"
+          >Terms & Conditions</a>
+        </li>
+        <li class="footer-policy__item">
+           <a class="footer-policy__link link"
+          href=""
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="Privecy Policy"
+          >Privecy Policy</a>
+        </li>
+        <li class="footer-policy__item">
+           <a class="footer-policy__link link"
+          href=""
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="Terms of use"
+          >Terms of use</a>
+        </li>
+      </ul>
+      <div class="footer-subscription">
+        <strong class="footer-subtitle">SUBSCRIBE NOW</strong>
+        <form class="form-subscription">
+          <input
+            class="form-subscription__input"
+            type="email"
+            autocomplete="off"
+            name="email"
+            placeholder="E-mail"
+            required
+          />
+          <button class="subscription__btn" type="submit">Send</button>
+        </form>
+      </div>
+      </div>
+     
+    </footer>
+   
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/slick.js"></script>
+  </body>
+</html>
