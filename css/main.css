@@ -1,4 +1,4 @@
-.benefits__title, .location__title {
+.location__title {
   margin-bottom: 20px;
   font-family: Gelasio, serif;
   color: rgb(0, 0, 0);
@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.benefits__desc, .location__desc {
+.location__desc {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.61;
@@ -20,7 +20,10 @@
 
 body {
   font-family: Roboto, sans-serif;
-  color: rgba(0, 0, 0, 0.6);
+}
+
+.body2 {
+  color: white;
 }
 
 h1,
@@ -178,11 +181,11 @@ ul {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url(/./images/hero@1x.jpg);
+  background-image: url("/images/hero@1x.jpg");
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .header-hero {
-    background-image: url(/./images/hero@2x.jpg);
+    background-image: url("/images/hero@2x.jpg");
   }
 }
 
@@ -240,7 +243,11 @@ ul {
   padding-top: 140px;
   padding-bottom: 140px;
 }
+.location__title {
+  color: white;
+}
 .location__desc {
+  color: white;
   max-width: 735px;
   margin-left: auto;
   margin-right: auto;
@@ -252,6 +259,7 @@ ul {
   gap: 31px;
 }
 .location__wrapper {
+  background-color: aqua;
   padding-top: 35px;
   padding-right: 34px;
   padding-bottom: 33px;
@@ -263,9 +271,9 @@ ul {
           box-shadow: 0px 6px 35px rgba(0, 0, 0, 0.08);
 }
 .location__subtitle {
+  color: white;
   text-align: center;
   font-family: Gelasio, serif;
-  color: rgb(0, 0, 0);
   font-weight: 500;
   font-size: 24px;
   line-height: 1.5;
@@ -274,12 +282,16 @@ ul {
 }
 
 .wrapper-desc {
+  color: white;
   text-align: center;
 }
 
 .benefits {
   padding-top: 0;
   padding-bottom: 140px;
+}
+.benefits__title {
+  color: white;
 }
 .benefits__desc {
   max-width: 581px;
@@ -314,7 +326,7 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
-  color: rgb(0, 0, 0);
+  color: white;
   margin-bottom: 10px;
 }
 
