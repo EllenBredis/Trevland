@@ -2,14 +2,15 @@
     @include section (0, 140px);
 
     &__title {
-        @extend %section-title;
+        color: white;
+       
     }
 
     &__desc {
         max-width: 581px;
         margin-left: auto;
         margin-right: auto;
-        @extend %section-desc;
+        
     }
 
     &__list{
@@ -31,7 +32,7 @@
     .benefits-card__subtitle {
         font-family: $SecondaryFontFamily;
         @include fonts (20px, 30px, 500, null);
-        color:$SecondaryTextColor;
+        color:white;
         margin-bottom: 10px;
      
        }

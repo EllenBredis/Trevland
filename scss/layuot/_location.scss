@@ -2,10 +2,12 @@
     @include section (140px, 140px);
 
   &__title {
+    color: white;
             @extend %section-title;
         }
 
   &__desc {
+    color: white;
     max-width: 735px;
     margin-left: auto;
     margin-right: auto;
@@ -19,6 +21,7 @@
 
    
   &__wrapper{
+    background-color: aqua;
     padding-top: 35px;
     padding-right: 34px;
     padding-bottom: 33px;
@@ -30,15 +33,16 @@
   }
 
   &__subtitle{
+    color: white;
     text-align: center;
     font-family: $SecondaryFontFamily;
-    color: $SecondaryTextColor;
     @include fonts (24px, 36px, 500);
     margin-bottom: 10px;
   }
 }
 
   .wrapper-desc {
+    color: white;
     text-align: center;
       }
 
